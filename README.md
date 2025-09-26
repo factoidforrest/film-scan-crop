@@ -2,6 +2,8 @@
 
 Film negative/positive crop detection tool with automatic border detection. Originally forked from this gist but heavily modified: https://gist.github.com/stecman/91cb5d28d330550a1dc56fa29215cb85
 
+![a sample image of the visualizer](demo.png)
+
 This is a beta. It's primarily designed to handle batch cropping and rotation of either positive or negative scans. I made it to run on an entire folder of lightroom exports after going through Negative Lab Pro, which odly doesn't yet have this feature. A golang port is in progress because python is horrid, but the python script currently works and can handle large folders ergonomically. It supports tiff and standard image formats, but not RAW, so you would typically use this after you export.
 
 A binary in planned in the future to make distribution easier. For now, you have to install the python package as described below. 
